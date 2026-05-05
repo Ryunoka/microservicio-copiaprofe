@@ -23,7 +23,7 @@ public class Paciente {
     @Column(unique = true, nullable = false)
     @NotBlank(message = "El campo run no puede ser vacio")
     @Pattern(regexp = "^\\d{7,8}-[\\dkK]$", message = "El formato del run debe ser xxxxxxxx-x")
-    private String run;
+    private String pacienteRun;
 
     @Column(name = "nombre_completo", nullable = false)
     @NotBlank(message = "El campo nombre completo no puede ser vacio")
