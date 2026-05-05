@@ -1,4 +1,4 @@
 package com.hospital.msvc_pacientes.services;
 
-public interface MedicoService {
+public class PacienteServiceImpl {
 }
