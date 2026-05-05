@@ -1,4 +1,8 @@
 package com.hospital.msvc_pacientes.services;
 
-public class PacienteServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class PacienteServiceImpl implements PacienteService{
+
 }
